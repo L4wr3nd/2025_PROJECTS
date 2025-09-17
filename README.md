@@ -6,7 +6,7 @@ The goal was to try to fit selected distributions to wind speed data acquired fr
   <li><b>Wind turbine modeling</b></li>
 In this project a wind turbine was modeled based on the same meteorological data as used in the above project. The turbine modeling included 3 scenarios: turbine with perfect orientation towards wind direction, fixed position, and fully rotatable with fixed yaw misalignment error. The project includes among others: data preparation, wind turbine modeling, component vector calculation, energy production optimisation, models comparison.
   <li><b>Monte Carlo simulations on PLN/EUR exchange rate - IN PROGRESS</b></li>
-The goal of this work is to test several Monte Carlo methods on PLN/EUR exchange rate log returns in order to analyse exchange rate volatility over a 1-year horizon. The project includes among others: downloading data via an API, data preprocessing, exploratory data analysis, identyfing relevant data range, bootstrap, geometric brownian motion, statistical distributions, hypothesis testing, distributions fitting, distribution fitting evaluation.
+The goal of this work is to test several Monte Carlo methods on PLN/EUR exchange rate log returns in order to analyse exchange rate volatility over a 1-year horizon. The project includes among others: downloading data via an API, data preprocessing, exploratory data analysis, identyfing relevant data range, bootstrap, geometric Brownian motion, statistical distributions, hypothesis testing, distributions fitting, distribution fitting evaluation.
 </ol>
 
 Apart from the projects included in the depository, I planned more of them. However, these project are on hold due to lack of time. Such projects are:
