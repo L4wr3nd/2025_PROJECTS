@@ -14,7 +14,7 @@ Further work:
   <ul>
     <li>Adding an introduction at the beginning and comments/descriptions among the code.</li>
     <li>Apply neural networks (NN) or GARCH to model these errors (residuals) and also NN to model the entire consumption (instead of ARIMA+NN or ARIMA+GARCH). Such hybrid and pure NN models' results could be evaluated and compared to determine whether any on them can be reliable and which has the best/worst performance. I take into account adding external variables like temperature to include them as exogenous.</li>
-    <li>Predcit extreme values (very low or very high daily consumption). My idea is to classify values as "normal" or "extreme" (e.g. {0: 'normal', 1: 'extreme'}) or as "next will be normal"/"next will be extreme" and train an algorithm (e.g. a NN or logistic regression) to calculate a probability that the (next) value will be extreme. </li>
+    <li>Predcit extreme values (very low or very high daily consumption). My idea is to classify values as "normal" or "extreme" (e.g. {0: 'normal', 1: 'extreme'}) or as "next will be normal"/"next will be extreme" using an algorithm/function and train an algorithm (e.g. a NN or logistic regression) to calculate probability that the value will be extreme.</li>
   </ul>
 </ol>
 
