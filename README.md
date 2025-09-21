@@ -10,8 +10,12 @@ The goal of this work is to test several Monte Carlo methods on PLN/EUR exchange
 Further work in this project includes adding comments and providing conclusions to the acquired results.
   <li><b>My dog's daily food consumption - <ins>IN PROGRESS</ins></b></li>
 I note in an Excel file all dog's meals' details which is: date, meal number in the day, meal's amount in grams, and the dog's last measured weight. I do this to be aware of his food preferences, identify how much he eats each day, and detect potential illness. I realised I could use this dataset to model his daily consumption. I prepared ARIMA model but errors are quite high, so I decided these residuals need to be somehow modeled. Here my current work has stopped. The project includes among others: time series analysis, time series modeling, model evaluation, hypothesis testing. <b>I am aware there is no train-test split in the dataset yet.</b> <br />
-Further work will focus first on adding an introduction at the beginning and comments/descriptions among the code. Apart from that, my ideas to continue this project is to use neural networks (NN) or GARCH to model these errors (residuals) and also apply NN to model the entire consumption (instead of ARIMA+NN or ARIMA+GARCH). Such hybrid and pure NN models' results could be evaluated and compared to determine whether any on them can be reliable and which has the best/worst performance. I take into account adding external variables like temperature to include them as exogenous. <br />
-Another idea I plan to add is to predcit extreme values (very low or very high daily consumption). My idea is to create an algorithm/function which will classify values as normal or extreme (e.g. {0: 'normal', 1: 'extreme'}) and train an algorithm (e.g. a NN or logistic regression) to calculate a probability that the next value will be extreme.
+Further work:
+  <ul>
+    <li>Adding an introduction at the beginning and comments/descriptions among the code.</li>
+    <li>Apply neural networks (NN) or GARCH to model these errors (residuals) and also NN to model the entire consumption (instead of ARIMA+NN or ARIMA+GARCH). Such hybrid and pure NN models' results could be evaluated and compared to determine whether any on them can be reliable and which has the best/worst performance. I take into account adding external variables like temperature to include them as exogenous.</li>
+    <li>Predcit extreme values (very low or very high daily consumption). My idea is to classify values as "normal" or "extreme" (e.g. {0: 'normal', 1: 'extreme'}) or as "next will be normal"/"next will be extreme" and train an algorithm (e.g. a NN or logistic regression) to calculate a probability that the (next) value will be extreme. </li>
+  </ul>
 </ol>
 
 Apart from the projects included in the depository, I planned. However, these project are on hold due to lack of time. Such project is e.g.:
