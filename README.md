@@ -1,5 +1,5 @@
 # 2025_PROJECTS
-The goal of this repository is to present a sample of my skills in areas of data analysis and modeling. The repository includes 3 projects with brief descriptions presented below. Detailed descriptions can be found inside their notebooks. The scope of work and level of details were settled based on amount of available time.
+The goal of this repository is to present a sample of my skills in areas of data analysis and modeling. The repository includes projects with brief descriptions presented below. Detailed descriptions can be found inside their notebooks. The scope of work and level of details were settled based on amount of available time.
 <ol>
   <li><b>Wind speed distribution fitting</b></li>
 The goal was to try to fit selected distributions to wind speed data acquired from a NASA website. The project includes among others: data preparation, statistical data analysis, distribution fitting using method of moments and maximum likelihood estimation, distribution fitting evaluation, optimisation using derivatives (local maximum).
