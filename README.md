@@ -12,8 +12,9 @@ Further work in this project includes adding comments and providing conclusions 
 I note in an Excel file all dog's meals to be aware of his food preferences, identify how much he eats each day, and detect potential illness. I realised I could use this dataset to model his daily consumption over the next few days. The project includes among others: time series analysis, time series modeling, exponential smoothing, ARIMA, neural networks, model evaluation, hypothesis testing.
 Further work:
   <ul>
-    <li>Modeling, tuning and evaluating missing methods</li>
-    <li>Choosing the best methods</li>
+    <li>Modeling, tuning missing methods</li>
+    <li>Models' evaluation</li>
+    <li>Choosing the best models</li>
   </ul>
 </ol>
 
