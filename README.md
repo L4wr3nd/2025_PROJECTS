@@ -9,12 +9,11 @@ In this project a wind turbine was modeled based on the same meteorological data
 The goal of this work is to test several Monte Carlo methods on PLN/EUR exchange rate log returns in order to analyse exchange rate volatility over a 1-year horizon. The project includes among others: downloading data via an API, data preprocessing, exploratory data analysis, identyfing relevant data range, bootstrap, geometric Brownian motion, statistical distributions, hypothesis testing, distribution fitting, distribution fitting evaluation. <br />
 Further work in this project includes adding comments and providing conclusions to the acquired results.
   <li><b>My dog's daily food consumption - <ins>IN PROGRESS</ins></b></li>
-I note in an Excel file all dog's meals' details which is: date, meal number in the day, meal's amount in grams, and the dog's last measured weight. I do this to be aware of his food preferences, identify how much he eats each day, and detect potential illness. I realised I could use this dataset to model his daily consumption. I prepared ARIMA model but errors are quite high, so I decided these residuals need to be somehow modeled. Here my current work has stopped. The project includes among others: time series analysis, time series modeling, model evaluation, hypothesis testing. <b>I am aware there is no train-test split in the dataset yet.</b> <br />
+I note in an Excel file all dog's meals to be aware of his food preferences, identify how much he eats each day, and detect potential illness. I realised I could use this dataset to model his daily consumption over the next few days. The project includes among others: time series analysis, time series modeling, exponential smoothing, ARIMA, neural networks, model evaluation, hypothesis testing.
 Further work:
   <ul>
-    <li>Adding an introduction at the beginning and comments/descriptions among the code.</li>
-    <li>Apply neural networks (NN) or GARCH to model errors (residuals) and also NN to model the entire consumption (instead of ARIMA+NN or ARIMA+GARCH). Such hybrid and pure NN models' results could be evaluated and compared to determine whether any on them can be reliable and which has the best/worst performance. I take into account adding external variables/parameters like temperature.</li>
-    <li>Predcit extreme values (very low or very high daily consumption). My idea is to classify values as "normal" or "extreme" (e.g. {0: 'normal', 1: 'extreme'}) or as "next will be normal"/"next will be extreme" using an algorithm/function and train an algorithm (e.g. a NN or logistic regression) to calculate probability the value will be extreme.</li>
+    <li>Modeling, tuning and evaluating missing methods</li>
+    <li>Choosing the best methods</li>
   </ul>
 </ol>
 
